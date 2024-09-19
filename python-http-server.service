@@ -1,0 +1,12 @@
+[Unit]
+Description=Python HTTP Server for managing services
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /etc/python/http_server.py
+Restart=on-failure
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
