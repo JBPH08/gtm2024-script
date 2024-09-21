@@ -1,6 +1,6 @@
 [Unit]
 Description=server-dnstt Service
-Documentation=https://phcorner.net/members/arjienx.1773652/
+Documentation=https://t.me/ruhappyy
 After=network.target
 
 [Service]
